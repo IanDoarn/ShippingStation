@@ -102,6 +102,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="SQL\pg_create_sh_employee.sql" />
+    <Content Include="SQL\pg_create_sh_ship_station_session.sql" />
+    <Content Include="SQL\pg_create_sh_user.sql" />
+    <Content Include="SQL\pg_function_clock_into_station.sql" />
+    <Content Include="SQL\pg_function_clock_out_station.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
