@@ -104,6 +104,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="SQL\pg_test_tables.sql" />
     <Content Include="SQL\pg_create_sh_employee.sql" />
     <Content Include="SQL\pg_create_sh_ship_station_session.sql" />
     <Content Include="SQL\pg_create_sh_user.sql" />
